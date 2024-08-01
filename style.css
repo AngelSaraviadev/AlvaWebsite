@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #fff6e9;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1500px) and (min-width: 600px) {
+  header {
+    padding: 30px 10%;
+  }
+  #timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 9%;
+  }
+  #timeline .timeline-row {
+    display: flex;
+    column-gap: 64px;
+  }
+  .timeline-column .title {
+    font-size: 28px;
+    column-gap: 50px;
+    padding-bottom: 1rem;
+  }
+  .timeline-column .timeline-box {
+    border-left: 2px solid black;
+  }
+  .timeline-box .timeline-content {
+    padding-left: 27px;
+  }
+  .timeline-content .content {
+    padding: 24px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  }
+  .timeline-content {
+    padding-bottom: 3rem;
+  }
+  button {
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #edf0f1;
+    text-transform: uppercase;
+    background-color: #24252a;
+  }
+  li,
+  a {
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #edf0f1;
+    text-transform: uppercase;
+    background-color: #24252a;
+  }
+  li,
+  a:hover {
+    color: #ff7f3e;
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    position: fixed;
+    background-color: #24252a;
+    width: 100%;
+    z-index: 1000000;
+  }
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #24252a;
+  }
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+    background-color: #24252a;
+  }
+  .logo {
+    margin-right: auto;
+    background-color: #24252a;
+  }
+  .name:hover {
+    color: #ff7f3e;
+  }
+  #secondbox {
+    background-color: #604cc3;
+    height: 100vh;
+    width: 50%;
+    top: 6rem;
+    left: 46rem;
+    position: relative;
+    transition: all 0.3s ease 0s;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+  }
+  #job {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-family: "roboto", sans-serif;
+    font-size: 50px;
+    color: #604cc3;
+    transition: all 0.3s ease 0s;
+  }
+  #job2 {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-family: "roboto", sans-serif;
+    font-size: 50px;
+    color: #604cc3;
+    transition: all 0.3s ease 0s;
+  }
+  #description {
+    position: absolute;
+    top: 470px;
+    left: 100px;
+    height: 150px;
+    width: 500px;
+    font-family: "roboto", sans-serif;
+    font-size: 17px;
+    color: #000000;
+    transition: all 0.3s ease 0s;
+  }
+
+  #picture {
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top: -30px;
+    transition: all 0.3s ease 0s;
+  }
+  .blackbox {
+    border: 2.5px solid black;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 350px;
+    left: 625px;
+  }
+  button {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    background-color: aqua;
+  }
+  button:hover {
+    background-color: orange;
+  }
+  .nav_links {
+    background-color: #24252a;
+    border-color: #24252a;
+  }
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 320px) {
+  header {
+    padding: 30px 10%;
+  }
+  li,
+  a,
+  button {
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #edf0f1;
+    text-transform: uppercase;
+    background-color: #24252a;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    position: fixed;
+    background-color: #24252a;
+    width: 100%;
+  }
+
+  .logo {
+    margin-right: auto;
+    background-color: #24252a;
+  }
+
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    background-color: #edf0f1;
+  }
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: #24252a;
+    margin: 6px 0;
+  }
+  .nav_links,
+  .cta {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 30px 10%;
+  }
+}
